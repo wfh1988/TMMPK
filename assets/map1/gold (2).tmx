@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="0" y="400" width="1600" height="80"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="2" x="63" y="107"/>
+  <object type="2" x="63" y="147"/>
+  <object type="2" x="63" y="187"/>
+  <object type="2" x="63" y="227"/>
+  <object type="2" x="63" y="267"/>
+  <object type="2" x="63" y="307"/>
+  <object type="2" x="63" y="347"/>
+  <object type="2" x="100" y="303"/>
+  <object type="2" x="130" y="317"/>
+  <object type="2" x="125" y="351"/>
+  <object type="2" x="92" y="355"/>
+  <object type="2" x="183" y="147"/>
+  <object type="2" x="212" y="355"/>
+  <object type="2" x="183" y="307"/>
+  <object type="2" x="183" y="267"/>
+  <object type="2" x="183" y="187"/>
+  <object type="2" x="183" y="107"/>
+  <object type="2" x="250" y="317"/>
+  <object type="2" x="183" y="227"/>
+  <object type="2" x="245" y="351"/>
+  <object type="2" x="183" y="347"/>
+  <object type="2" x="220" y="303"/>
+  <object type="3" x="515" y="326"/>
+  <object type="3" x="486" y="198"/>
+  <object type="3" x="455" y="326"/>
+  <object type="3" x="427" y="352"/>
+  <object type="3" x="544" y="355"/>
+  <object type="3" x="365" y="367"/>
+  <object type="3" x="397" y="363"/>
+  <object type="3" x="458" y="204"/>
+  <object type="3" x="361" y="114"/>
+  <object type="3" x="307" y="346"/>
+  <object type="3" x="518" y="204"/>
+  <object type="3" x="540" y="102"/>
+  <object type="3" x="303" y="93"/>
+  <object type="3" x="423" y="99"/>
+  <object type="3" x="340" y="241"/>
+  <object type="3" x="483" y="320"/>
+  <object type="3" x="451" y="73"/>
+  <object type="3" x="400" y="241"/>
+  <object type="3" x="310" y="224"/>
+  <object type="3" x="337" y="363"/>
+  <object type="3" x="333" y="110"/>
+  <object type="3" x="479" y="67"/>
+  <object type="3" x="511" y="73"/>
+  <object type="3" x="368" y="245"/>
+  <object type="3" x="547" y="233"/>
+  <object type="3" x="430" y="230"/>
+  <object type="3" x="393" y="110"/>
+  <object type="2" x="593" y="145"/>
+  <object type="2" x="609" y="96"/>
+  <object type="2" x="642" y="66"/>
+  <object type="2" x="698" y="61"/>
+  <object type="2" x="746" y="77"/>
+  <object type="2" x="776" y="115"/>
+  <object type="2" x="779" y="163"/>
+  <object type="2" x="773" y="202"/>
+  <object type="2" x="764" y="236"/>
+  <object type="2" x="751" y="271"/>
+  <object type="2" x="734" y="303"/>
+  <object type="2" x="715" y="333"/>
+  <object type="2" x="689" y="357"/>
+  <object type="2" x="665" y="375"/>
+  <object type="4" x="820" y="160"/>
+  <object type="4" x="820" y="240"/>
+  <object type="2" x="609" y="178"/>
+  <object type="5" x="688" y="105"/>
+  <object type="5" x="688" y="145"/>
+  <object type="5" x="648" y="145"/>
+  <object type="5" x="728" y="145"/>
+  <object type="5" x="688" y="185"/>
+  <object type="3" x="955" y="98"/>
+  <object type="3" x="1102" y="90"/>
+  <object type="3" x="902" y="229"/>
+  <object type="3" x="1106" y="343"/>
+  <object type="3" x="865" y="81"/>
+  <object type="3" x="895" y="98"/>
+  <object type="3" x="923" y="102"/>
+  <object type="3" x="1109" y="221"/>
+  <object type="3" x="962" y="229"/>
+  <object type="3" x="1020" y="192"/>
+  <object type="3" x="992" y="218"/>
+  <object type="3" x="927" y="355"/>
+  <object type="3" x="869" y="334"/>
+  <object type="3" x="1048" y="186"/>
+  <object type="3" x="1045" y="308"/>
+  <object type="3" x="1013" y="61"/>
+  <object type="3" x="1041" y="55"/>
+  <object type="3" x="1073" y="61"/>
+  <object type="3" x="1077" y="314"/>
+  <object type="3" x="959" y="351"/>
+  <object type="3" x="985" y="87"/>
+  <object type="3" x="930" y="233"/>
+  <object type="3" x="989" y="340"/>
+  <object type="3" x="1017" y="314"/>
+  <object type="3" x="899" y="351"/>
+  <object type="3" x="1080" y="192"/>
+  <object type="3" x="872" y="212"/>
+  <object x="1263" y="226"/>
+  <object x="1263" y="266"/>
+  <object x="1240" y="245"/>
+  <object x="1285" y="247"/>
+  <object x="1223" y="211"/>
+  <object x="1245" y="176"/>
+  <object x="1284" y="165"/>
+  <object x="1323" y="184"/>
+  <object x="1341" y="228"/>
+  <object x="1329" y="267"/>
+  <object x="1310" y="297"/>
+  <object x="1270" y="306"/>
+  <object x="1239" y="306"/>
+  <object x="1206" y="294"/>
+  <object x="1192" y="258"/>
+  <object x="1180" y="214"/>
+  <object x="1192" y="165"/>
+  <object x="1216" y="133"/>
+  <object x="1252" y="120"/>
+  <object x="1412" y="258"/>
+  <object x="1505" y="247"/>
+  <object x="1490" y="306"/>
+  <object x="1549" y="267"/>
+  <object x="1530" y="297"/>
+  <object x="1561" y="228"/>
+  <object x="1543" y="184"/>
+  <object x="1443" y="211"/>
+  <object x="1483" y="226"/>
+  <object x="1459" y="306"/>
+  <object x="1483" y="266"/>
+  <object x="1504" y="165"/>
+  <object x="1436" y="133"/>
+  <object x="1412" y="165"/>
+  <object x="1465" y="176"/>
+  <object x="1400" y="214"/>
+  <object x="1426" y="294"/>
+  <object x="1460" y="245"/>
+  <object x="1472" y="120"/>
+  <object type="5" x="495" y="144"/>
+  <object type="6" x="535" y="144"/>
+  <object type="4" x="325" y="175"/>
+  <object type="5" x="365" y="175"/>
+  <object type="6" x="405" y="175"/>
+  <object type="4" x="455" y="144"/>
+  <object type="5" x="506" y="272"/>
+  <object type="6" x="546" y="272"/>
+  <object type="4" x="336" y="303"/>
+  <object type="5" x="376" y="303"/>
+  <object type="6" x="416" y="303"/>
+  <object type="4" x="466" y="272"/>
+  <object type="5" x="1053" y="139"/>
+  <object type="6" x="1093" y="139"/>
+  <object type="4" x="883" y="170"/>
+  <object type="5" x="923" y="170"/>
+  <object type="6" x="963" y="170"/>
+  <object type="4" x="1013" y="139"/>
+  <object type="5" x="1063" y="260"/>
+  <object type="6" x="1103" y="260"/>
+  <object type="4" x="893" y="291"/>
+  <object type="5" x="933" y="291"/>
+  <object type="6" x="973" y="291"/>
+  <object type="4" x="1023" y="260"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzty6cRgEAABdHDkXGkA0fGkfuvjLWoK4C/M0+uMUoppZRS6u958BEgRIQYCVL9zjLkKFCiQg2LRr+zFh16DBgxYcai39mKDTsOnLhw49H/6QU23hM5
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="106" y="336" width="151" height="143"/>
+  <object x="426" y="333" width="150" height="147"/>
+  <object x="749" y="333" width="147" height="145"/>
+  <object x="1069" y="335" width="147" height="144"/>
+  <object x="1390" y="332" width="145" height="145"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="2" x="120" y="320"/>
+  <object type="2" x="140" y="320"/>
+  <object type="4" x="180" y="320"/>
+  <object type="2" x="220" y="320"/>
+  <object type="2" x="240" y="320"/>
+  <object type="1" x="440" y="320"/>
+  <object type="1" x="460" y="320"/>
+  <object type="5" x="500" y="320"/>
+  <object type="1" x="540" y="320"/>
+  <object type="1" x="560" y="320"/>
+  <object type="3" x="760" y="320"/>
+  <object type="3" x="780" y="320"/>
+  <object type="6" x="820" y="320"/>
+  <object type="3" x="860" y="320"/>
+  <object type="3" x="880" y="320"/>
+  <object type="2" x="1080" y="320"/>
+  <object type="2" x="1100" y="320"/>
+  <object type="6" x="1140" y="320"/>
+  <object type="2" x="1180" y="320"/>
+  <object type="2" x="1200" y="320"/>
+  <object type="3" x="1400" y="320"/>
+  <object type="3" x="1420" y="320"/>
+  <object type="7" x="1460" y="320"/>
+  <object type="3" x="1500" y="320"/>
+  <object type="3" x="1520" y="320"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="80" height="12">
+  <object type="4" x="860" y="120"/>
+ </objectgroup>
+ <objectgroup name="up" width="80" height="12"/>
+</map>

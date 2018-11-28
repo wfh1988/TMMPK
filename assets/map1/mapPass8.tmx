@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt0dkKwkAMheGK+1LFulvFta64r+//ZP43vQmTXrYIOfAxyRAYhniexWKxWCwWi8Xy38khjwKKoi6hjAqqqKGOhmNO9j6aKf4jq7TQRoCOqLvooY8Bhhhh7JiTfYiJ8qbcWdKefOUuPrPe0RQzzLEQ9RIrrBFhgy12jjnZ73FQ3pQ7S9pTqNzFp7ajtHLECWdcRH3FDXc88MQLb8ec7D/4ird+Ax8Mww==
+  </data>
+ </layer>
+ <layer name="块层 2" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztz8sWQlAAhWGiULqQiC4iod7/Af2P0JmcM9n/Wt9sT7bnKaWUUkoppVzmY4UAIdbYIEKMBFvskBrs9jhY/OGqI07IkOOMAheUqHBFjcZgd8Pd4g9XPfBEixc69HhjwAcjJswGuy9+1l781wK/OAYN
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="428" y="375" width="462" height="105"/>
+  <object x="50" y="413" width="378" height="65"/>
+  <object x="1069" y="333" width="465" height="147"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="1" x="989" y="271"/>
+  <object type="4" x="960" y="240"/>
+  <object type="1" x="960" y="271"/>
+  <object type="4" x="989" y="240"/>
+  <object type="2" x="160" y="400"/>
+  <object type="2" x="200" y="370"/>
+  <object type="2" x="160" y="370"/>
+  <object type="2" x="200" y="400"/>
+  <object type="2" x="280" y="400"/>
+  <object type="2" x="320" y="370"/>
+  <object type="2" x="280" y="370"/>
+  <object type="2" x="320" y="400"/>
+  <object type="4" x="240" y="370"/>
+  <object type="5" x="240" y="400"/>
+  <object type="6" x="241" y="331"/>
+  <object type="3" x="1260" y="280"/>
+  <object type="6" x="1300" y="240"/>
+  <object type="3" x="1340" y="280"/>
+  <object type="1" x="1380" y="320"/>
+  <object type="1" x="1420" y="320"/>
+  <object type="1" x="1460" y="320"/>
+  <object type="1" x="1220" y="320"/>
+  <object type="1" x="1180" y="320"/>
+  <object type="1" x="1140" y="320"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="80" height="12"/>
+ <objectgroup name="up" width="80" height="12"/>
+</map>

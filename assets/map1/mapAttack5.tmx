@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt1dkKglAURuFj8wwNpg3QPEI2qNX7P1krqJsg8CCyg/aC70L5LxSUY4ymaZqm/W8OcsijgCJKKKOCKmqoo4Gm5fbz3vta0yRL+g1L7Z7/Tiuzt09fGx100YOLPjz4GGAouBthnNnbp2+CKWaYY4ElVlhjg63gbof961ltzogku28bm3PogABHnHDGBSEixLgK7m64m9/tARwxFLU=
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="-2" y="334" width="836" height="148"/>
+  <object x="865" y="412" width="737" height="30"/>
+  <object x="1012" y="213" width="587" height="27"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="3" x="1040" y="160"/>
+  <object type="3" x="1080" y="160"/>
+  <object type="3" x="1120" y="160"/>
+  <object type="3" x="1160" y="160"/>
+  <object type="3" x="1200" y="160"/>
+  <object type="3" x="1240" y="160"/>
+  <object type="3" x="1280" y="160"/>
+  <object type="3" x="1320" y="160"/>
+  <object type="3" x="1360" y="160"/>
+  <object type="3" x="1400" y="160"/>
+  <object type="3" x="1440" y="160"/>
+  <object type="3" x="1480" y="160"/>
+  <object type="3" x="1519" y="161"/>
+  <object type="3" x="1560" y="160"/>
+  <object type="3" x="1060" y="400"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="80" height="12">
+  <object type="9" x="1300" y="400"/>
+  <object type="9" x="1400" y="400"/>
+  <object type="9" x="1500" y="400"/>
+ </objectgroup>
+ <objectgroup name="up" width="80" height="12">
+  <object type="2" x="800" y="280"/>
+  <object type="2" x="960" y="240"/>
+ </objectgroup>
+</map>

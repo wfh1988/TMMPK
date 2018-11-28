@@ -1,0 +1,308 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.5.0.1",
+      "version": 1.501,
+      "name": "guaiwu02",
+      "bone_data": [
+        {
+          "name": "Layer4",
+          "parent": "",
+          "dI": 0,
+          "x": 6.7627167701721191,
+          "y": 41.395256042480469,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.24396968,
+          "kY": -1.24396968,
+          "arrow_x": 28.317131042480469,
+          "arrow_y": 1.6227808373514563E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "怪02/01.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -1.88869476,
+                  "y": -9.23619,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.2439698,
+                  "kY": 1.2439698
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer5",
+          "parent": "Layer4",
+          "dI": 0,
+          "x": 12.451045989990234,
+          "y": -3.2860393524169922,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -4.288309,
+          "kY": 4.288309,
+          "arrow_x": 18.724849700927734,
+          "arrow_y": -6.9610105128958821E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "怪02/02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 17.5656853,
+                  "y": -7.00983572,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": 2.71272659,
+                  "kY": -2.71272659
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer6",
+          "parent": "Layer4",
+          "dI": 0,
+          "x": 3.2553329467773438,
+          "y": -4.0337247848510742,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.77578044,
+          "kY": -1.77578044,
+          "arrow_x": 22.439075469970703,
+          "arrow_y": -1.2432559742592275E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "怪02/03.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 7.33027,
+                  "y": 3.17567825,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 3.80448747,
+                  "kY": 2.478698
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "guaiwu02",
+      "mov_data": [
+        {
+          "name": "stay",
+          "dr": 21,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.4,
+          "mov_bone_data": [
+            {
+              "name": "Layer5",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.401425719,
+                  "kY": -0.401425719,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer4",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0349065848,
+                  "kY": -0.0349065848,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer6",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.5235988,
+                  "kY": 0.5235988,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "怪02/01",
+      "width": 59.0,
+      "height": 73.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "怪02/02",
+      "width": 59.0,
+      "height": 73.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "怪02/03",
+      "width": 59.0,
+      "height": 73.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "guaiwu020.plist"
+  ],
+  "config_png_path": [
+    "guaiwu020.png"
+  ]
+}

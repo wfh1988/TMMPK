@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    	<item name="android:windowBackground">@drawable/loading</item>
+    	<item name="android:windowNoTitle">true</item>  
+    </style>
+    <style name="Theme.AppStartLoadTranslucent" parent="android:style/Theme.Translucent.NoTitleBar.Fullscreen">  
+    	<item name="android:windowIsTranslucent">true</item> 
+    	<item name="android:windowNoTitle">true</item>  
+	</style>
+
+    
+</resources>

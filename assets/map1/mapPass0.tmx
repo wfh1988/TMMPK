@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztw7UNwAAAwLAyM9P/dzZTT+gUSw4CSZIkSfpHyMjfmAlTZsxZsGTFmg1bduw5+Dty4syFKzfuPHjy4s2HL8+cBjs=
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="10" y="413" width="1585" height="67"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12"/>
+ <objectgroup name="enemy" width="80" height="12"/>
+ <objectgroup name="up" width="80" height="12"/>
+ <objectgroup name="fire" width="80" height="12"/>
+</map>

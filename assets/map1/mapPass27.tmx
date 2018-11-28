@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztz0kOgkAURVEQENBgAyIYsEEQA/tfIHcDVSMtJu8mZ/LzJt/zlFJKKaWUUr/KxwYBQkTYIkaCFDvskVm2pvvB3SurdMQJZ+QocEGJKyrUuKGxbE331t0rq3THA0+80OGNHgM+GPHFZNma7rOjP/7VAlvDBdQ=
+  </data>
+ </layer>
+ <layer name="块层 2" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztzscNgDAAxdDQS4CEHsr+c+IBuAeJb+ndbYxSSimllFJK/aMEKTLkKFCiQo0GLSw69BiinH4zB48RE2YsWLFhR8CBExfuKKfvPZJ3AZc=
+  </data>
+ </layer>
+ <layer name="块层 3" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztz7kSgkAQRdFRccEFEDdccUFF//8DufEEUzVBJ9S7VSfql7RzSimllFJKqT43wBAjJBhjgilmSDHHAsvI7cq7h3aZ9aNG5SiwRokNtthhjwMqHHGK3J69e2h3sX7UqCtuqHHHA0+80OCND75oI7c/7x7a/dEB0vAI8g==
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="908" y="374" width="684" height="108"/>
+  <object x="650" y="412" width="258" height="72"/>
+  <object x="170" y="374" width="480" height="106"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="14" x="960" y="320"/>
+  <object type="1" x="1040" y="360"/>
+  <object type="1" x="1080" y="360"/>
+  <object type="1" x="1160" y="360"/>
+  <object type="1" x="1120" y="360"/>
+  <object type="1" x="1240" y="360"/>
+  <object type="1" x="1200" y="360"/>
+  <object type="1" x="1320" y="360"/>
+  <object type="1" x="1280" y="360"/>
+  <object type="1" x="1280" y="320"/>
+  <object type="1" x="1160" y="320"/>
+  <object type="1" x="1120" y="320"/>
+  <object type="1" x="1080" y="320"/>
+  <object type="1" x="1200" y="320"/>
+  <object type="1" x="1320" y="320"/>
+  <object type="1" x="1240" y="320"/>
+  <object type="1" x="1040" y="320"/>
+  <object type="1" x="1640" y="320"/>
+  <object type="1" x="1480" y="360"/>
+  <object type="1" x="1480" y="320"/>
+  <object type="1" x="1360" y="320"/>
+  <object type="1" x="1440" y="360"/>
+  <object type="1" x="1400" y="360"/>
+  <object type="1" x="1520" y="360"/>
+  <object type="1" x="1440" y="320"/>
+  <object type="1" x="1640" y="360"/>
+  <object type="1" x="1400" y="320"/>
+  <object type="1" x="1360" y="360"/>
+  <object type="1" x="1520" y="320"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="80" height="12">
+  <object type="7" x="705" y="389"/>
+  <object type="7" x="872" y="391"/>
+ </objectgroup>
+ <objectgroup name="up" width="80" height="12">
+  <object type="2" x="789" y="392"/>
+ </objectgroup>
+ <objectgroup name="fire" width="80" height="12"/>
+</map>

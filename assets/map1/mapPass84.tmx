@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="12" tilewidth="20" tileheight="40">
+ <tileset firstgid="1" name="road" tilewidth="20" tileheight="40">
+  <image source="road.png" width="280" height="188"/>
+ </tileset>
+ <layer name="块层 1" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt0McKAzEUQ1Gnkt5J76R30v//y3LBeDOYYWwv8wRnKRBSSiKRSCQSiUTy70khjQyyKKOKmmc/F9ivOPZ9YtucRwFFlJT+wWyJ21NHA020MMAI44Rbov12YH/o2PeJbXMHXfTQV/oHsyVuzwRTzDDHFnscEm6J9heB/Z1j3ye2zUussMZG6R/Mlrg9R5xwxgUvfPBNuCXavwb23459n9g233DHA0+lfzBbzJ4fhLcPZQ==
+  </data>
+ </layer>
+ <objectgroup name="collision" width="80" height="12">
+  <object x="108" y="333" width="125" height="147"/>
+  <object x="427" y="335" width="126" height="142"/>
+  <object x="750" y="333" width="124" height="147"/>
+  <object x="1329" y="333" width="264" height="145"/>
+ </objectgroup>
+ <objectgroup name="items" width="80" height="12">
+  <object type="2" x="1101" y="258"/>
+  <object type="3" x="1221" y="258"/>
+  <object type="3" x="1061" y="258"/>
+  <object type="3" x="941" y="258"/>
+  <object type="2" x="1101" y="298"/>
+  <object type="2" x="1101" y="178"/>
+  <object type="3" x="1261" y="258"/>
+  <object type="3" x="1141" y="258"/>
+  <object type="3" x="981" y="258"/>
+  <object type="2" x="1101" y="338"/>
+  <object type="2" x="1101" y="218"/>
+  <object type="3" x="1181" y="258"/>
+  <object type="3" x="1021" y="258"/>
+  <object type="4" x="994" y="209"/>
+  <object type="5" x="1034" y="209"/>
+  <object type="6" x="954" y="209"/>
+  <object type="7" x="974" y="169"/>
+  <object type="4" x="1014" y="169"/>
+  <object type="5" x="1054" y="169"/>
+  <object type="4" x="1195" y="210"/>
+  <object type="4" x="1215" y="170"/>
+  <object type="7" x="1175" y="170"/>
+  <object type="6" x="1155" y="210"/>
+  <object type="5" x="1255" y="170"/>
+  <object type="5" x="1235" y="210"/>
+  <object type="4" x="982" y="347"/>
+  <object type="4" x="1002" y="307"/>
+  <object type="7" x="962" y="307"/>
+  <object type="6" x="942" y="347"/>
+  <object type="5" x="1042" y="307"/>
+  <object type="5" x="1022" y="347"/>
+  <object type="6" x="1151" y="345"/>
+  <object type="5" x="1251" y="305"/>
+  <object type="5" x="1231" y="345"/>
+  <object type="4" x="1191" y="345"/>
+  <object type="4" x="1211" y="305"/>
+  <object type="7" x="1171" y="305"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="80" height="12">
+  <object type="5" x="140" y="320"/>
+  <object type="5" x="200" y="320"/>
+  <object type="5" x="460" y="320"/>
+  <object type="5" x="520" y="320"/>
+  <object type="5" x="780" y="320"/>
+  <object type="5" x="840" y="320"/>
+ </objectgroup>
+ <objectgroup name="up" width="80" height="12">
+  <object type="2" x="1200" y="120"/>
+  <object type="2" x="1200" y="401"/>
+  <object type="2" x="1140" y="401"/>
+  <object type="2" x="1020" y="120"/>
+  <object type="2" x="1260" y="401"/>
+  <object type="2" x="1260" y="120"/>
+  <object type="2" x="1020" y="401"/>
+  <object type="2" x="960" y="120"/>
+  <object type="2" x="1080" y="120"/>
+  <object type="2" x="1080" y="401"/>
+  <object type="2" x="960" y="401"/>
+  <object type="2" x="1140" y="120"/>
+ </objectgroup>
+</map>
