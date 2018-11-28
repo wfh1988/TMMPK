@@ -33,17 +33,18 @@ public class AdMobManager implements RewardedVideoAdListener {
 
 //        MobileAds.initialize(act, "ca-app-pub-3940256099942544~3347511713");//test
         MobileAds.initialize(act, "ca-app-pub-1180600649063291~9282994937");
-
+        //激励广告
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(_act);
         mRewardedVideoAd.setRewardedVideoAdListener(this);
         loadRewardedVideoAd();
 
-
+        //插屏广告
         mInterstitialAd = new InterstitialAd(_act);
         //mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");//test
         mInterstitialAd.setAdUnitId("ca-app-pub-1180600649063291/6219973049");
 //        loadInstAd();
     }
+    //加载激励广告
     private void loadRewardedVideoAd() {
 //        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917", new AdRequest.Builder().build());//test
       mRewardedVideoAd.loadAd("ca-app-pub-1180600649063291/5856005379", new AdRequest.Builder().build());
